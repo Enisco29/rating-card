@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 330px;
+    height: 350px;
+    border-radius: 14px;
+    padding: 0 25px;
+    /* display: none; */
+}
+.img-container{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 10%, 21%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+p{
+    color: hsl(217, 12%, 63%);
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.rating-btn{
+    padding: 15px 19px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 10%, 21%);
+    cursor: pointer;
+}
+.rating-btn:hover{
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+    transition: .3s ease-in-out;
+}
+.selected{
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+.submit-btn{
+    padding: 10px 90px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.submit-btn:disabled{
+    background-color: hsl(25, 97%, 53%);
+    cursor: not-allowed;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+    transition: .3s ease-in-out;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 330px;
+    height: 330px;
+    line-height: 20px;
+    border-radius: 14px;
+    padding: 0 25px;
+    display: none;
+}
+.img2-container img{
+    width: 110px;
+    margin-top: 20px;
+}
+.rating-info{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 10%, 21%);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
